@@ -3,7 +3,7 @@ name: 'GitHub Actions CloudFlare2DNSPod Bot'
 on: workflow_dispatch
 env:
   UPDATE_IPV4: true
-  UPDATE_IPV6: true
+  UPDATE_IPV6: false
 jobs:
   build:
     runs-on: ubuntu-latest
